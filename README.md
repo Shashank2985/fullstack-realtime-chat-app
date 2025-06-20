@@ -37,15 +37,11 @@ npm install
 Front-end:
 
 bash
-Copy
-Edit
 cd ../frontend
 npm install
 Create .env file in backend/ (and optionally in frontend/ if needed):
 
 env
-Copy
-Edit
 MONGODB_URI=<your MongoDB connection URI>
 PORT=5001
 JWT_SECRET=<your secret string>
@@ -74,9 +70,7 @@ Follow platform-specific guides (Heroku, Vercel, Render)
 Ensure all .env values are set in your hosting environment
 
 📦 Project Structure
-csharp
-Copy
-Edit
+
 fullstack-chat-app/
 ├── backend/            # Node.js API server
 │   ├── controllers     # Route logic
@@ -90,7 +84,6 @@ fullstack-chat-app/
 │   └── store           # Zustand slices & state management
 │
 ├── .gitignore
-├── LICENSE             # MIT
 └── README.md           # This file
 
 
