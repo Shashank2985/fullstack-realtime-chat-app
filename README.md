@@ -91,6 +91,7 @@ fullstack-chat-app/
 ```
 
 🎯 Why This App?
+
 Learning Resource: Demonstrates full-stack integration with real-time features
 
 Modern Tech: Built with up-to-date tools & best practices
