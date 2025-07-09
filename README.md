@@ -56,13 +56,15 @@ bash
    ```bash
    git clone https://github.com/Shashank2985/fullstack-realtime-chat-app.git
 
+```
 cd ../backend
 npm run build         # builds backend (if configured)
 npm start             # starts backend server
 
-cd ../frontend
+```cd ../frontend
 npm run build         # builds frontend for production
 npm start             # starts React app
+```
 Production deployment:
 
 Follow platform-specific guides (Heroku, Vercel, Render)
@@ -70,7 +72,7 @@ Follow platform-specific guides (Heroku, Vercel, Render)
 Ensure all .env values are set in your hosting environment
 
 📦 Project Structure
-
+```
 fullstack-chat-app/
 ├── backend/            # Node.js API server
 │   ├── controllers     # Route logic
@@ -86,6 +88,7 @@ fullstack-chat-app/
 ├── .gitignore
 └── README.md           # This file
 
+```
 
 🎯 Why This App?
 Learning Resource: Demonstrates full-stack integration with real-time features
